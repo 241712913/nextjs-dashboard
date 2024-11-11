@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform Belajar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Platform Belajar</h1>
+        <nav>
+            <ul>
+                <li><a href="#courses">Kursus</a></li>
+                <li><a href="#forum">Forum</a></li>
+                <li><a href="#profile">Profil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="courses">
+            <h2>Kursus Tersedia</h2>
+            <div class="course">
+                <h3>Kursus 1: Dasar-Dasar Pemrograman</h3>
+                <p>Pelajari dasar-dasar pemrograman dengan bahasa Python.</p>
+                <button onclick="enroll('Kursus 1')">Daftar</button>
+            </div>
+            <div class="course">
+                <h3>Kursus 2: Analisis Data dengan Excel</h3>
+                <p>Pelajari cara menganalisis data menggunakan Microsoft Excel.</p>
+                <button onclick="enroll('Kursus 2')">Daftar</button>
+            </div>
+        </section>
+
+        <section id="forum">
+            <h2>Forum Diskusi</h2>
+            <p>Diskusikan topik dan ajukan pertanyaan di sini.</p>
+            <textarea placeholder="Tulis pesan Anda di sini..."></textarea>
+            <button>Kirim</button>
+        </section>
+
+        <section id="profile">
+            <h2>Profil Pengguna</h2>
+            <p>Nama: Yemimariafe Saragih</p>
+            <p>Kursus Terdaftar: 2</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Platform Belajar</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
